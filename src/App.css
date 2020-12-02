@@ -1,38 +1,98 @@
-.App {
+body {
+  padding: 20px;
+}
+/* productlist page*/
+.product{
+  padding: 10px;
+}
+.product-list-caption{
+  margin: auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.product-list-text{
+  margin: auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .7rem;
+  margin-bottom: 10px;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.product-detail{
+  margin-top: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.product-list{
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid gray;
+}
+.product-img{
+  margin: auto;
+}
+.other-product-detail{
+  margin-top: 10px;
+}
+.other-product-detail h3{
+  font-size: .8rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.detail-button{
+  font-size: .7rem;
+  padding: 1px 2px;
+  display: inline-block;
+}
+.cart-button{
+  font-size: .7rem;
+  padding: 1px 2px;
+  display: inline-block;
+  background-color: red;
+}
+.prod-img:hover{
+  transform: scale(1.1);
+}
+/* product detail page*/
+.Home .lander {
+  padding: 80px 10px;
+  text-align: center;
+}
+.Home .lander h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.Home .lander p {
+  color: black;
+}
+.detail-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+.price{
+  background-color: green;
   color: white;
+  display: inline-block;
+  font-size: .8rem;
+  width: 4rem;
+  font-weight: bold;
+  font-style: italic;
 }
-
-.App-link {
-  color: #61dafb;
+.cart-button-detail{
+  font-size: 1rem;
+  padding: 1px 2px;
+  display: inline-block;
+  background-color: red;
+  padding: 5px 5px;
+  width: 18rem;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  font-weight: bold;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cart-button-detail:hover{
+  background-color: brown;
 }
